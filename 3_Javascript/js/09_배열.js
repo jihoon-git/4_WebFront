@@ -101,7 +101,7 @@ document.getElementById("btn2").addEventListener("click", function(){
     // -> 원본 훼손 발생(깊은 복사를 이용해 해결 가능)
     console.log(numArr);
 
-    // 배열.join("구분자") // 나중에 필기 추가
+    // 배열.join("구분자")
     console.log(numArr.join("//"));
 
     // 로또 번호 생성
